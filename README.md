@@ -2,7 +2,8 @@
 
 Go to website [DTEK](https://www.dtek-krem.com.ua/ua/shutdowns) and set home address and get screenshot of schedule shutdowns.
 
-Before run appliaction, you must file ./textOfInputFields.template.json rename to ./textOfInputFields.json and write correct address for each field in this file.
+Before run appliaction, you must file ./textOfInputFields.template.json rename to ./textOfInputFields.json  
+and write correct address for each field in this file.
 
 ![schedule](./shutdowns.png) 
 
