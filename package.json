@@ -1,0 +1,17 @@
+{
+  "name": "dtek-shutdowns",
+  "module": "index.ts",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "typecheck": "bun check",
+    "compile": "bun build --compile ./index.ts --outfile shutdowns",
+    "show": "./shutdowns && xdg-open /tmp/shutdowns.png"
+  },
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^7"
+  }
+}
